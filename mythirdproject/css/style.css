@@ -1,0 +1,489 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+.travel{
+	height: 4398px;
+}
+
+/* Intro Start */
+
+.intro{
+	width: 98vw;
+	height: 91vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.introImg{
+	width: 100vw;
+	height: 91vh;
+	z-index: 1;
+	position: absolute;
+}
+
+
+.introContent{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
+	position: absolute;
+	left: 525px;
+	top: 300px;
+}
+
+.introSearchBar{
+	width: 650px;
+	height: 65px;
+	
+	background-color: #fff;
+	
+	display: flex;
+	
+	margin-top: 50px;
+}
+
+.introFakeInput{
+	width: 500px;
+	height: 65px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.introButton{
+	width: 150px;
+	height: 61px;
+	background-color: #5474FD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: wrap;
+	margin-top: 2px;
+	margin-right: 2px;	
+}
+
+.introTrueButton{
+	margin-right: 10px;
+}
+
+.introScrollDown{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	margin-top: 150px;
+}
+
+.introScrollDown img{
+	margin-top: 10px;
+}
+
+
+
+.introNav{
+	width: 99vw;
+	height: 86px;
+	background-color: #5474FD;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.introNav h2{
+	margin-left: 125px;
+}
+
+.introNavBar{
+	width: 35vw;
+	height: 86px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+
+	margin-left: 450px;
+}
+
+/* Intro End */
+
+/* Block 2 Start */
+
+.block2{
+	width: 98px;
+	height: 700px;
+	position: relative;
+}
+
+.block2BackgroundImg{
+	width: 99vw;
+	height: 700px;
+	position: absolute;
+	z-index: 0;
+}
+
+.block2Content{
+	width: 560	px;
+	height: 700px;
+
+	position: absolute;
+	z-index: 1;
+
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 200px;
+	margin-left: 315px;
+}
+
+.block2FakeButton{
+	width: 228px;
+	height: 63px;
+
+	background-color: #5474FD;
+	
+	position: relative;
+	z-index: 2;
+
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+.block2FakeButton img{
+	width: 112px;
+	height: 63px;
+	
+	background: #5474FD;
+
+	position: absolute;
+	z-index: 3;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block2FakeButtonText{
+	width: 179px;
+	height: 26px;
+
+	position: absolute;
+	z-index: 3;
+
+	margin-left: 48px;
+	margin-top: 25px;
+}
+
+.block2ContentImages{
+	z-index: 3;
+	position: relative;
+	
+	margin-top: 100px;
+}
+
+.block2Img1{
+	width: 350px;
+	height: 220px;
+
+	position: absolute;
+	z-index: 3;
+
+	top: 117px;
+	left: 1000px;
+}
+
+.block2Img2{
+	width: 350px;
+	height: 220px;
+	
+	position: absolute;
+	z-index: 3;
+
+	top: 350px;
+	left: 1090px;
+}
+
+/* Block 2 End*/
+
+/* Block 3 Start */
+.block3{
+	width: 99vw;
+	height: 340px;
+
+	background-color: #333333;
+	position: absolute;
+	z-index: 0;
+}
+
+.block3WavyLineIconContainer{
+	width: 99vw;
+	height: 340px;
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.block3WavyLineIcon{
+	width: 777px;
+	height: 99px;
+
+	position: absolute;
+	z-index: 1;
+
+	top: 44px;
+}
+
+.block3ContentContainer{
+	width: 99vw;
+	height: 340px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	top: 0px;
+	right: 50px;
+}
+
+.block3Content{
+	width: 1200px;
+	height: 180px;
+
+	/* background-color: #000; */
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.block3CircleIcon{
+	position: absolute;
+	z-index: 2;
+}
+
+.block3IconLupa, .block3GalochkaIcon, .block3LikeIcon{
+	position: absolute;
+	z-index: 3;
+
+	bottom: 181px;
+	margin-left: 18px;
+}
+
+.block3IconText{
+	position: absolute;
+	z-index: 4;
+	top: 175px;
+
+	min-width: 250px;
+
+}
+
+
+
+.block3IconText1{
+	left: 400px;
+}
+
+.block3IconText2{
+	left: 810px;
+}
+
+.block3IconText3{
+	right: 240px;
+}
+
+/* Block 3 End*/
+
+
+/* Block 4 Start */ 
+
+.block4{
+	width: 99vw;
+	height: 700px;
+}
+
+.block4BackGroundImg{
+	width: 99vw;
+	height: 700px;
+
+	margin-top: 340px;
+
+	position: absolute;
+	z-index: 4;
+}
+
+.block4CardContainer{
+	position: absolute;
+	z-index: 5;
+
+	margin-top: 560px;
+	margin-left: 320px;
+}
+
+.block4Card{
+	width: 543px;
+	height: 374px;
+
+	background-color: rgba(35, 35, 35, 1);
+	opacity: 0.9;
+}
+
+.block4CardContent{
+	display: flex;
+	flex-direction: column;
+
+	position: absolute;
+
+	top: 49px;
+	margin-left: 32px;
+
+
+}
+
+.block4FakeButton{
+	margin-top: 46px;
+}
+
+
+/* Block 4 End */
+
+/* Block 5 Start */
+
+.block5CardContent{
+	margin-left: 900px;
+}
+
+/* Мало кода т.к 5-ый блок это почти тот же 6-ой блок просто другой бэкграунд и расположение карточки */
+
+/* Block 5 End */
+
+/* Block 6 Start */
+
+.block6{
+	width: 99vw;
+	height: 731px;
+
+	background-image: url(/mythirdproject/img/block6vackGroundImg.png);
+
+	
+	position: absolute;
+	z-index: 5;
+	margin-top: 340px;
+	/* top: 3396px; */
+}
+
+.block6Content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.block6Header{
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 26px;
+	color: #FFFFFF;
+
+	margin-top: 100px;
+}
+
+.block6CardContent{
+	width: 1113px;
+	height: 290px;
+
+	background-color: #333333;
+
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 100px;
+}
+
+.block6CardIcon{
+	width: 581px;
+	height: 165px;
+}
+
+.block6CardNameAndIconContainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.block6CardIcon{
+	margin-top: 8px;
+    margin-left: 62px;
+}
+
+/* Block 6 End */
+
+/* Footer Start */
+
+.footer{
+	width: 99vw;
+	height: 271px;
+
+	background-color: #232323;
+
+	position: absolute;
+	z-index: 10;
+	margin-top: 1071px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footerscoplenieMalixIcon{
+	margin-top: 20px;
+}
+
+/* Foooter end */

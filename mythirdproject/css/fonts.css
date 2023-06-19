@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+.introContent h1{ 
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.introContent p{ 
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.introFakeInput p{
+	color: #999999;
+	font-size: 14px;
+    letter-spacing: 2.8px;
+}
+
+.introTrueButton{
+    border: none;
+    background-color: #5474FD;
+    font-family: 'Aleo', serif;
+    color: #ffffff;
+}
+
+.introNav h2{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24   px;
+}
+
+.introNavBar p{
+	font-family: 'Aleo', serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}   
+
+.block2Content h2{
+    width: 288px;
+    height: 26px;
+
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.block2ContentText{
+    width: 560px;
+    height: 158px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+
+    margin-top: 50px;
+}
+
+.block2FakeButtonText{
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1.6px;  
+}
+
+.block3IconText{
+    color: #ffffff;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.block4FakeButtonText{
+    margin-left: 55px;
+    text-transform: uppercase;
+}
+
+.block4CardName{
+    color: #E8E8E8;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.block4CardHeader{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    margin-top: 23px;
+}
+
+.block4CardText{
+    color: #E8E8E8;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    margin-top: 13px;
+}
+
+.block6CardName{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FEFEFE;
+
+    margin-top: 50px;
+    margin-left: 62px;
+}
+
+.footerName{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-top: 50px;
+}
+
+.footerText{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+
+    color: #FFFFFF;
+    margin-top: 8px;
+}
